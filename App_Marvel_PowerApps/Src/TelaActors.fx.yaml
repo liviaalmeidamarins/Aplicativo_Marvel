@@ -1,0 +1,303 @@
+TelaActors As screen:
+
+    Label1_10 As label:
+        Fill: =RGBA(48, 48, 48, 0.84)
+        Height: =88
+        Text: =""
+        Width: =1366
+        ZIndex: =1
+
+    Label2_9 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =70
+        Text: =""
+        Width: =1366
+        Y: =698
+        ZIndex: =3
+
+    Label3_10 As label:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =62
+        Text: =""
+        Width: =1366
+        Y: =88
+        ZIndex: =4
+
+    Image2_11 As image:
+        Height: =150
+        Image: ='logo-marvel-1536'
+        Width: =150
+        X: =608
+        ZIndex: =5
+
+    Image9_10 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =3
+        Height: =50
+        Image: =User().Image
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =65
+        Y: =19
+        ZIndex: =10
+
+    Label6_10 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Text: ="Olá, " & User().FullName
+        Width: =249
+        X: =135
+        Y: =24
+        ZIndex: =11
+
+    Button1_20 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaShop)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =18
+        Text: ="Shop"
+        Width: =78
+        X: =537
+        Y: =99
+        ZIndex: =20
+
+    Button1_31 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =29
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaActors)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =18
+        Text: ="Movies"
+        Width: =114
+        X: =626
+        Y: =104
+        ZIndex: =22
+
+    Button1_24 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaActors)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =18
+        Text: ="More"
+        Width: =78
+        X: =758
+        Y: =99
+        ZIndex: =23
+
+    Icon1_32 As icon.HorizontalLine:
+        BorderColor: =RGBA(255, 0, 0, 1)
+        Color: =RGBA(255, 0, 0, 1)
+        Icon: =Icon.HorizontalLine
+        X: =765
+        Y: =114
+        ZIndex: =24
+
+    Label4_9 As label:
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledFill: =RGBA(130, 141, 158, 1)
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =548
+        Text: =""
+        Width: =1366
+        Y: =150
+        ZIndex: =25
+
+    Arrow1_9 As arrow.backArrow:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =32
+        OnSelect: =Navigate(TelaInicial)
+        Width: =32
+        X: =50
+        Y: =103
+        ZIndex: =26
+
+    Icon1_33 As icon.HorizontalLine:
+        BorderColor: =RGBA(255, 0, 0, 1)
+        Color: =RGBA(255, 0, 0, 1)
+        Icon: =Icon.HorizontalLine
+        X: =104
+        Y: =178
+        ZIndex: =29
+
+    Button1_46 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        Height: =27
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaBooks)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =22
+        Text: ="Atores"
+        Width: =102
+        X: =50
+        Y: =178
+        ZIndex: =34
+
+    Image10 As image:
+        Height: =166
+        Image: =images
+        Width: =130
+        X: =104
+        Y: =242
+        ZIndex: =35
+
+    Button1_51 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =27
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaBooks)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =16
+        Text: ="Chris Evans"
+        Width: =119
+        X: =104
+        Y: =408
+        ZIndex: =36
+
+    Button1_52 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =27
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaBooks)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =16
+        Text: =""
+        Width: =119
+        X: =285
+        Y: =410
+        ZIndex: =37
+
+    Image16 As image:
+        Height: =166
+        Image: ='licensed-image (4)'
+        Width: =116
+        X: =740
+        Y: =242
+        ZIndex: =40
+
+    Image19 As image:
+        Height: =164
+        Image: ='licensed-image (3)'
+        Width: =128
+        X: =592
+        Y: =244
+        ZIndex: =41
+
+    Image20 As image:
+        Height: =166
+        Image: ='licensed-image (1)'
+        Width: =118
+        X: =437
+        Y: =244
+        ZIndex: =42
+
+    Image21 As image:
+        Height: =166
+        Image: ='licensed-image (2)'
+        Width: =128
+        X: =276
+        Y: =244
+        ZIndex: =43
+
+    Button1_53 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =38
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaBooks)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =16
+        Text: ="Paul Bettany"
+        Width: =127
+        X: =281
+        Y: =402
+        ZIndex: =44
+
+    Button1_54 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =49
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaBooks)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =16
+        Text: ="Natalie Portman"
+        Width: =137
+        X: =425
+        Y: =413
+        ZIndex: =45
+
+    Button1_55 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =27
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaBooks)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =16
+        Text: ="Idris Elba"
+        Width: =119
+        X: =596
+        Y: =410
+        ZIndex: =46
+
+    Button1_56 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        Height: =59
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaBooks)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =16
+        Text: ="Zoë Saldaña"
+        Width: =135
+        X: =730
+        Y: =394
+        ZIndex: =47
+

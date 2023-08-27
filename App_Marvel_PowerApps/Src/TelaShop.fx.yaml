@@ -1,0 +1,293 @@
+TelaShop As screen:
+
+    Label1_1 As label:
+        Fill: =RGBA(48, 48, 48, 0.84)
+        Height: =88
+        Text: =""
+        Width: =1366
+        ZIndex: =1
+
+    Image9_1 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =3
+        Height: =50
+        Image: =User().Image
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =65
+        Y: =19
+        ZIndex: =2
+
+    Label6_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Text: ="Olá, " & User().FullName
+        Width: =249
+        X: =135
+        Y: =24
+        ZIndex: =3
+
+    Label3_1 As label:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =62
+        Text: =""
+        Width: =1366
+        Y: =88
+        ZIndex: =4
+
+    Image2_1 As image:
+        Height: =150
+        Image: ='logo-marvel-1536'
+        Width: =150
+        X: =608
+        ZIndex: =5
+
+    Icon1_5 As icon.HorizontalLine:
+        BorderColor: =RGBA(255, 0, 0, 1)
+        Color: =RGBA(255, 0, 0, 1)
+        Icon: =Icon.HorizontalLine
+        X: =544
+        Y: =114
+        ZIndex: =8
+
+    Button1_5 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaShop)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =18
+        Text: ="Loja"
+        Width: =78
+        X: =537
+        Y: =98
+        ZIndex: =11
+
+    Button1_6 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =29
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaMovies)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =18
+        Text: ="Filmes"
+        Width: =114
+        X: =626
+        Y: =104
+        ZIndex: =12
+
+    Button1_8 As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(TelaMore)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Size: =18
+        Text: ="Mais"
+        Width: =78
+        X: =758
+        Y: =99
+        ZIndex: =14
+
+    "Gallery7 As gallery.'BrowseLayout_Flexible_SocialFeed_ver5.0'":
+        DelayItemLoading: =true
+        Height: =556
+        Items: =shop
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =4
+        TemplateSize: =Min(870, Self.Height - 60)
+        Width: =317
+        X: =65
+        Y: =178
+        ZIndex: =15
+
+        ProfileImage2 As image:
+            Height: =64
+            Image: =ThisItem.img
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =64
+            X: =16
+            Y: =16
+            ZIndex: =1
+
+        Title5 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 112
+            X: =96
+            Y: =ProfileImage2.Y + (ProfileImage2.Height / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Image6 As image:
+            Height: =Min(Self.Width, Parent.TemplateHeight - 180)
+            Image: =ThisItem.img
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =Parent.TemplateWidth - 32
+            X: =16
+            Y: =96
+            ZIndex: =3
+
+        Body2 As label:
+            AutoHeight: =true
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: |
+                =
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 32
+            X: =16
+            Y: =Image6.Y + Image6.Height + 16
+            ZIndex: =4
+
+    "Gallery12 As gallery.'BrowseLayout_Flexible_SocialFeed_ver5.0'":
+        DelayItemLoading: =true
+        Items: =pelucias
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =4
+        TemplateSize: =Min(870, Self.Height - 60)
+        Width: =377
+        X: =471
+        Y: =179
+        ZIndex: =16
+
+        ProfileImage5 As image:
+            Height: =64
+            Image: =ThisItem.img
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =64
+            X: =16
+            Y: =16
+            ZIndex: =1
+
+        Title10 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 112
+            X: =96
+            Y: =ProfileImage5.Y + (ProfileImage5.Height / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Image12 As image:
+            Height: =Min(Self.Width, Parent.TemplateHeight - 180)
+            Image: =ThisItem.img
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =Parent.TemplateWidth - 32
+            X: =16
+            Y: =80
+            ZIndex: =3
+
+    Arrow1 As arrow.backArrow:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =32
+        OnSelect: =Navigate(TelaInicial)
+        Width: =32
+        X: =50
+        Y: =103
+        ZIndex: =17
+
+    "Gallery1 As gallery.'BrowseLayout_Flexible_SocialFeed_ver5.0'":
+        DelayItemLoading: =true
+        Items: =BONECOS
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =4
+        TemplateSize: =Min(870, Self.Height - 60)
+        Width: =377
+        X: =935
+        Y: =178
+        ZIndex: =18
+
+        ProfileImage1 As image:
+            Height: =64
+            Image: =ThisItem.IMG
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =64
+            X: =16
+            Y: =16
+            ZIndex: =1
+
+        Title1 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 112
+            X: =96
+            Y: =ProfileImage1.Y + (ProfileImage1.Height / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Image1 As image:
+            Height: =390
+            Image: =ThisItem.IMG
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =Parent.TemplateWidth - 32
+            X: =16
+            Y: =96
+            ZIndex: =3
+

@@ -1,0 +1,196 @@
+{
+  "396c4dc6-ab87-4f5d-8018-5442c99d09d3": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fatecspgov-my.sharepoint.com/personal/livia_marins_fatec_sp_gov_br": {
+        "dataSources": {
+          "BONECOS": {
+            "tableName": "dce160af-04f8-4895-b3e0-1ff33c27b657"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "BONECOS"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "396c4dc6-ab87-4f5d-8018-5442c99d09d3"
+  },
+  "4fb0b9b6-1e77-469c-8072-6647e1ff7646": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fatecspgov-my.sharepoint.com/personal/livia_marins_fatec_sp_gov_br": {
+        "dataSources": {
+          "movies02": {
+            "tableName": "efcdfe9f-76c3-457b-88a3-86a3d5a96a35"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "movies02"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4fb0b9b6-1e77-469c-8072-6647e1ff7646"
+  },
+  "64a9f9f6-45e9-49e5-a402-32f261e5d74b": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fatecspgov-my.sharepoint.com/personal/livia_marins_fatec_sp_gov_br": {
+        "dataSources": {
+          "shop": {
+            "tableName": "4fb800f3-5115-4f8a-947f-7b9906800762"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "shop"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "64a9f9f6-45e9-49e5-a402-32f261e5d74b"
+  },
+  "7760a0e8-f4fd-43ce-ad6d-a8294367ef1c": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1653/1.0.1653.3403/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "0bfe3509-b228-4ebf-a24a-660b7d270ffc"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "0bfe3509-b228-4ebf-a24a-660b7d270ffc"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Translat"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7760a0e8-f4fd-43ce-ad6d-a8294367ef1c"
+  },
+  "83c3df73-f5fa-4813-83ce-0502f3ad9550": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Usuários do Office 365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1649/1.0.1649.3368/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "UsuáriosdoOffice365"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "83c3df73-f5fa-4813-83ce-0502f3ad9550"
+  },
+  "9dc0e405-8365-4065-9855-c1ba4fe0396b": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fatecspgov-my.sharepoint.com/personal/livia_marins_fatec_sp_gov_br": {
+        "dataSources": {
+          "movies": {
+            "tableName": "5aa396a5-d186-4268-af83-48c2d7539a9c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "movies"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "9dc0e405-8365-4065-9855-c1ba4fe0396b"
+  },
+  "e0c44299-6c7a-490d-a108-cc04fe0b427a": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fatecspgov-my.sharepoint.com/personal/livia_marins_fatec_sp_gov_br": {
+        "dataSources": {
+          "pelucias": {
+            "tableName": "f0d8437f-9b88-4dd4-b0ba-7cdd6ccdc659"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "pelucias"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e0c44299-6c7a-490d-a108-cc04fe0b427a"
+  },
+  "e824d768-0e53-4b1f-9e42-49e09e0c6c77": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fatecspgov-my.sharepoint.com/personal/livia_marins_fatec_sp_gov_br": {
+        "dataSources": {
+          "Carrossel": {
+            "tableName": "125ae7ff-99dd-4665-bd1a-9f41fa877739"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Carrossel"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e824d768-0e53-4b1f-9e42-49e09e0c6c77"
+  }
+}

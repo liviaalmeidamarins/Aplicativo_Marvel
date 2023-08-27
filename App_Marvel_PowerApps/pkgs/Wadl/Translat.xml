@@ -1,0 +1,67 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://msmanaged-na.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="Translat" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="Translat" />
+  <grammars>
+    <jsonTypes targetNamespace="https://msmanaged-na.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <object name="ManualTriggerInput" />
+      <string name="ResponseActionOutput_items_def_language_def" />
+      <string name="ResponseActionOutput_items_def_country_def" />
+      <string name="ResponseActionOutput_items_def_Version_def" />
+      <string name="ResponseActionOutput_items_def_AddButtLoja_def" />
+      <string name="ResponseActionOutput_items_def_AddButtFilmes_def" />
+      <string name="ResponseActionOutput_items_def_AddButtMais_def" />
+      <string name="ResponseActionOutput_items_def_addvingadores_def" />
+      <string name="ResponseActionOutput_items_def_addheroismais_def" />
+      <string name="ResponseActionOutput_items_def_addaniversariodos_def" />
+      <string name="ResponseActionOutput_items_def_addfilmes1_def" />
+      <string name="ResponseActionOutput_items_def_addfilmes2_def" />
+      <string name="ResponseActionOutput_items_def_addfilmes3_def" />
+      <string name="ResponseActionOutput_items_def_addfilmes4_def" />
+      <string name="ResponseActionOutput_items_def_addfilmes5_def" />
+      <string name="ResponseActionOutput_items_def_addfilmes6_def" />
+      <object name="ResponseActionOutput_items_def">
+        <property name="language" type="string" />
+        <property name="country" type="string" />
+        <property name="Version" type="string" />
+        <property name="AddButtLoja" type="string" />
+        <property name="AddButtFilmes" type="string" />
+        <property name="AddButtMais" type="string" />
+        <property name="addvingadores" type="string" />
+        <property name="addheroismais" type="string" />
+        <property name="addaniversariodos" type="string" />
+        <property name="addfilmes1" type="string" />
+        <property name="addfilmes2" type="string" />
+        <property name="addfilmes3" type="string" />
+        <property name="addfilmes4" type="string" />
+        <property name="addfilmes5" type="string" />
+        <property name="addfilmes6" type="string" />
+      </object>
+      <array typeRef="ResponseActionOutput_items_def" name="ResponseActionOutput" />
+      <object name="Run_responses_default_def" />
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://msmanaged-na.azure-apim.net/apim/logicflows">
+    <resource path="/{connectionId}/triggers/manual/run">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="POST" id="Run">
+        <doc title="Runs a logic flow trigger." />
+        <request>
+          <param style="query" name="api-version" type="xs:string" required="true" fixed="2015-02-01-preview">
+            <doc title="The api version" />
+          </param>
+          <representation mediaType="application/json" />
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:ResponseActionOutput" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="logicflows" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>

@@ -1,0 +1,956 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "accounts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "account",
+    "Name": "Contas",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "{Attachments}": "Attachments",
+      "account_actioncard": "Cartões de Ação",
+      "Account_ActivityPointers": "Atividades",
+      "Account_Annotation": "Anotações",
+      "Account_Appointments": "Compromissos",
+      "Account_AsyncOperations": "Trabalhos do Sistema",
+      "Account_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "account_chats": "Chats do Teams",
+      "account_connections1": "Conexões (account_connections1)",
+      "account_connections2": "Conexões (account_connections2)",
+      "Account_CustomerAddress": "Endereços",
+      "Account_DuplicateBaseRecord": "Registros Duplicados (Account_DuplicateBaseRecord)",
+      "Account_DuplicateMatchingRecord": "Registros Duplicados (Account_DuplicateMatchingRecord)",
+      "Account_Email_EmailSender": "Mensagens de Email (Account_Email_EmailSender)",
+      "Account_Email_SendersAccount": "Mensagens de Email (Account_Email_SendersAccount)",
+      "Account_Emails": "Mensagens de Email (Account_Emails)",
+      "Account_Faxes": "Fax (Account_Faxes)",
+      "Account_Letters": "Cartas",
+      "Account_MailboxTrackingFolder": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "account_master_account": "Contas (account_master_account)",
+      "account_msfp_alerts": "Alerta do Customer Voice",
+      "account_msfp_surveyinvites": "Convites de Pesquisa do Customer Voice",
+      "account_msfp_surveyresponses": "Respostas de Pesquisa do Customer Voice",
+      "account_parent_account": "Contas (account_parent_account)",
+      "Account_Phonecalls": "Telefonemas",
+      "account_PostFollows": "Segue",
+      "account_PostRegardings": "Postar Referente a",
+      "account_principalobjectattributeaccess": "Compartilhamento de Campo",
+      "Account_ProcessSessions": "Sessões de Processo",
+      "Account_RecurringAppointmentMasters": "Compromissos Recorrentes",
+      "Account_SharepointDocumentLocation": "Locais de Documentos",
+      "Account_SyncErrors": "Erros de Sincronização",
+      "Account_Tasks": "Tarefas",
+      "accountcategorycode": "Categoria",
+      "accountclassificationcode": "Classificação",
+      "accountid": "Conta",
+      "accountnumber": "Número da Conta",
+      "accountratingcode": "Classificação da Conta",
+      "address1_addresstypecode": "Endereço 1: Tipo de Endereço",
+      "address1_city": "Endereço 1: Cidade",
+      "address1_composite": "Endereço 1",
+      "address1_country": "Endereço 1: País/Região",
+      "address1_county": "Endereço 1: Município",
+      "address1_fax": "Endereço 1: Fax",
+      "address1_freighttermscode": "Endereço 1: Condições de Frete",
+      "address1_latitude": "Endereço 1: Latitude",
+      "address1_line1": "Endereço 1: Rua 1",
+      "address1_line2": "Endereço 1: Rua 2",
+      "address1_line3": "Endereço 1: Rua 3",
+      "address1_longitude": "Endereço 1: Longitude",
+      "address1_name": "Endereço 1: Nome",
+      "address1_postalcode": "Endereço 1: CEP",
+      "address1_postofficebox": "Endereço 1: Caixa Postal",
+      "address1_primarycontactname": "Endereço 1: Nome do Contato Primário",
+      "address1_shippingmethodcode": "Endereço 1: Método de Entrega",
+      "address1_stateorprovince": "Endereço 1: Estado",
+      "address1_telephone1": "Telefone do Endereço",
+      "address1_telephone2": "Endereço 1: Telefone 2",
+      "address1_telephone3": "Endereço 1: Telefone 3",
+      "address1_upszone": "Endereço 1: Zona UPS",
+      "address1_utcoffset": "Endereço 1: Compensação UTC",
+      "address2_addresstypecode": "Endereço 2: Tipo de Endereço",
+      "address2_city": "Endereço 2: Cidade",
+      "address2_composite": "Endereço 2",
+      "address2_country": "Endereço 2: País/Região",
+      "address2_county": "Endereço 2: Município",
+      "address2_fax": "Endereço 2: Fax",
+      "address2_freighttermscode": "Endereço 2: Condições de Frete",
+      "address2_latitude": "Endereço 2: Latitude",
+      "address2_line1": "Endereço 2: Rua 1",
+      "address2_line2": "Endereço 2: Rua 2",
+      "address2_line3": "Endereço 2: Rua 3",
+      "address2_longitude": "Endereço 2: Longitude",
+      "address2_name": "Endereço 2: Nome",
+      "address2_postalcode": "Endereço 2: CEP",
+      "address2_postofficebox": "Endereço 2: Caixa Postal",
+      "address2_primarycontactname": "Endereço 2: Nome do Contato Primário",
+      "address2_shippingmethodcode": "Endereço 2: Método de Entrega",
+      "address2_stateorprovince": "Endereço 2: Estado",
+      "address2_telephone1": "Endereço 2: Telefone 1",
+      "address2_telephone2": "Endereço 2: Telefone 2",
+      "address2_telephone3": "Endereço 2: Telefone 3",
+      "address2_upszone": "Endereço 2: Zona UPS",
+      "address2_utcoffset": "Endereço 2: Compensação UTC",
+      "aging30": "Vencimento em 30 dias",
+      "aging30_base": "Vencimento em 30 dias (Base)",
+      "aging60": "Vencimento em 60 dias",
+      "aging60_base": "Vencimento em 60 dias (Base)",
+      "aging90": "Vencimento em 90 dias",
+      "aging90_base": "Vencimento em 90 dias (Base)",
+      "bpf_account_rnm_teste3": "teste3",
+      "businesstypecode": "Tipo de Empresa",
+      "contact_customer_accounts": "Contatos",
+      "createdby": "Criada por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "creditlimit": "Limite de Crédito",
+      "creditlimit_base": "Limite de Crédito (Base)",
+      "creditonhold": "Suspensão de Crédito",
+      "customersizecode": "Tamanho do Cliente",
+      "customertypecode": "Tipo de Relação",
+      "description": "Descrição",
+      "donotbulkemail": "Não permitir Emails em Massa",
+      "donotbulkpostalmail": "Não permitir Correspondência em Massa",
+      "donotemail": "Não permitir Emails",
+      "donotfax": "Não permitir Faxes",
+      "donotphone": "Não permitir Telefonemas",
+      "donotpostalmail": "Não permitir Correspondência",
+      "donotsendmm": "Enviar Materiais de Marketing",
+      "emailaddress1": "Email",
+      "emailaddress2": "Endereço de Email 2",
+      "emailaddress3": "Endereço de Email 3",
+      "entityimage": "Imagem Padrão",
+      "entityimageid": "ID da Imagem da Entidade",
+      "exchangerate": "Taxa de Câmbio",
+      "fax": "Fax (fax)",
+      "followemail": "Acompanhar Atividade de Email",
+      "ftpsiteurl": "Site FTP",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "industrycode": "Setor",
+      "lastonholdtime": "Última Suspensão",
+      "lastusedincampaign": "Data da Última Inclusão na Campanha",
+      "marketcap": "Capitalização de Mercado",
+      "marketcap_base": "Capitalização de Mercado (Base)",
+      "marketingonly": "Somente Marketing",
+      "masterid": "ID Mestra",
+      "merged": "Mesclado",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "name": "Nome da Conta",
+      "numberofemployees": "Número de Funcionários",
+      "onholdtime": "Tempo de Suspensão (Minutos)",
+      "overriddencreatedon": "Registro Criado em",
+      "ownershipcode": "Propriedade",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "parentaccountid": "Conta Primária",
+      "participatesinworkflow": "Participa no Fluxo de Trabalho",
+      "paymenttermscode": "Condições de Pagamento",
+      "preferredappointmentdaycode": "Dia Preferencial",
+      "preferredappointmenttimecode": "Horário Preferencial",
+      "preferredcontactmethodcode": "Forma Preferencial de Contato",
+      "preferredsystemuserid": "Usuário Preferencial",
+      "primarycontactid": "Contato Primário",
+      "primarysatoriid": "ID Principal do Satori",
+      "primarytwitterid": "ID Principal do Twitter",
+      "processid": "Processo",
+      "revenue": "Receita Anual",
+      "revenue_base": "Receita Anual (Base)",
+      "sharesoutstanding": "Ações em Circulação",
+      "shippingmethodcode": "Método de Entrega",
+      "sic": "CNAE",
+      "stageid": "(Preterido) Estágio do Processo",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "stockexchange": "Bolsa de Valores",
+      "telephone1": "Telefone Principal",
+      "telephone2": "Outro Telefone",
+      "telephone3": "Telefone 3",
+      "territorycode": "Código da Região",
+      "tickersymbol": "Símbolo de Ação",
+      "timespentbymeonemailandmeetings": "Tempo Gasto por Mim",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "transactioncurrencyid": "Moeda",
+      "traversedpath": "(Preterido) Caminho Percorrido",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão",
+      "websiteurl": "Site",
+      "yominame": "Nome da Conta Yomi"
+    },
+    "PreferredName": "Contas",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Contas (Modos de exibição)",
+    "Name": "_account_views",
+    "RelatedEntityName": "Contas",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00000000-0000-0000-00aa-000000666000": "Exibição de Localização Avançada de Contas",
+      "00000000-0000-0000-00aa-000010001001": "Minhas Contas Ativas",
+      "00000000-0000-0000-00aa-000010001002": "Contas Ativas",
+      "00000000-0000-0000-00aa-000010001031": "Contas Inativas",
+      "00000000-0000-0000-00aa-000010001200": "Exibição Associada à Conta",
+      "15c63745-0a6e-4322-8416-a62c84d90279": "Contas: Negociações Influenciadas que Conquistamos",
+      "49fb9771-09e1-4e70-b193-198752493577": "Contas: Responderam a Campanhas nos Últimos 6 Meses",
+      "65ffaf9a-e8c5-432d-860b-32f841b00d87": "Todas as Contas",
+      "a9af0ab8-861d-4cfa-92a5-c6281fed7fab": "Exibição da Consulta de Contas",
+      "cfbcd7af-aee5-4e45-8ecc-c040d4020581": "Contas: sem Atividade de Campanha nos Últimos 3 Meses",
+      "d234426e-1f37-4944-9255-50e19b541c4c": "Minhas Conexões"
+    }
+  },
+  {
+    "DisplayName": "Categoria (Contas)",
+    "Name": "account_accountcategorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Cliente Preferencial",
+      "2": "Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountcategorycode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountcategorycode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Classificação (Contas)",
+    "Name": "account_accountclassificationcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountclassificationcode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountclassificationcode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Classificação da Conta (Contas)",
+    "Name": "account_accountratingcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountratingcode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountratingcode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 1: Tipo de Endereço (Contas)",
+    "Name": "account_address1_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Fatura",
+      "2": "Remessa",
+      "3": "Primário",
+      "4": "Outro"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_addresstypecode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_addresstypecode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 1: Condições de Frete (Contas)",
+    "Name": "account_address1_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "FOB",
+      "2": "Frete Gratuito"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_freighttermscode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_freighttermscode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 1: Método de Entrega (Contas)",
+    "Name": "account_address1_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "17": "Transportadora",
+      "2": "DHL",
+      "23": "SEDEX",
+      "3": "FedEx",
+      "4": "UPS",
+      "5": "Correio Comum",
+      "7": "Cliente Retira no Local"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_shippingmethodcode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 2: Tipo de Endereço (Contas)",
+    "Name": "account_address2_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_addresstypecode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_addresstypecode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 2: Condições de Frete (Contas)",
+    "Name": "account_address2_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_freighttermscode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_freighttermscode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 2: Método de Entrega (Contas)",
+    "Name": "account_address2_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_shippingmethodcode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Tipo de Empresa (Contas)",
+    "Name": "account_businesstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "businesstypecode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "businesstypecode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Suspensão de Crédito (Contas)",
+    "Name": "account_creditonhold",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "creditonhold",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "creditonhold",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Tamanho do Cliente (Contas)",
+    "Name": "account_customersizecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customersizecode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customersizecode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Tipo de Relação (Contas)",
+    "Name": "account_customertypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Concorrente",
+      "10": "Fornecedor",
+      "11": "Fornecedor de serviços",
+      "12": "Outro",
+      "2": "Consultor",
+      "3": "Cliente",
+      "4": "Investidor",
+      "5": "Parceiro",
+      "6": "Influenciador",
+      "7": "Imprensa",
+      "8": "Cliente Potencial",
+      "9": "Revendedor"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customertypecode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customertypecode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Emails em Massa (Contas)",
+    "Name": "account_donotbulkemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkemail",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkemail",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Correspondência em Massa (Contas)",
+    "Name": "account_donotbulkpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkpostalmail",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkpostalmail",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Emails (Contas)",
+    "Name": "account_donotemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotemail",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotemail",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Faxes (Contas)",
+    "Name": "account_donotfax",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotfax",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotfax",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Telefonemas (Contas)",
+    "Name": "account_donotphone",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotphone",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotphone",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Correspondência (Contas)",
+    "Name": "account_donotpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotpostalmail",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotpostalmail",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Enviar Materiais de Marketing (Contas)",
+    "Name": "account_donotsendmm",
+    "OptionSetInfoNameMapping": {
+      "0": "Enviar",
+      "1": "Não Enviar"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotsendmm",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotsendmm",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Acompanhar Atividade de Email (Contas)",
+    "Name": "account_followemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Não Permitir",
+      "1": "Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "followemail",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "followemail",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Setor (Contas)",
+    "Name": "account_industrycode",
+    "OptionSetInfoNameMapping": {
+      "102": "Energia Elétrica",
+      "110": "Água e Saneamento",
+      "111": "Bebidas e Fumo",
+      "112": "Comércio Exterior",
+      "113": "Construção Civil",
+      "114": "Farmacêutica",
+      "115": "Holdings",
+      "116": "Material de Construção e Decoração",
+      "117": "Mecânica",
+      "118": "Papel e Celulose",
+      "119": "Plásticos e Borracha",
+      "120": "Química e Petroquímica",
+      "121": "Serviços Especializados",
+      "122": "Veículos e Peças",
+      "135": "Telecomunicações",
+      "20": "Seguros",
+      "33": "Comércio Atacadista",
+      "48": "Eletroeletrônico",
+      "49": "Agricultura",
+      "50": "Mineração",
+      "67": "Educação",
+      "72": "Comércio Varejista",
+      "74": "Tecnologia da Informação",
+      "78": "Serviços Médicos",
+      "79": "Alimentos",
+      "81": "Bancos",
+      "89": "Metalurgia",
+      "91": "Indústria Automobilística",
+      "92": "Transportes e Logística",
+      "93": "Têxtil, Couro e Vestuário",
+      "94": "Siderurgia"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "industrycode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "industrycode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsPrivate (Contas)",
+    "Name": "account_isprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isprivate",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isprivate",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Somente Marketing (Contas)",
+    "Name": "account_marketingonly",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "marketingonly",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "marketingonly",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Mesclado (Contas)",
+    "Name": "account_merged",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "merged",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "merged",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Propriedade (Contas)",
+    "Name": "account_ownershipcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Pública",
+      "12": "Capital Misto",
+      "2": "Particular"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ownershipcode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ownershipcode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Participa no Fluxo de Trabalho (Contas)",
+    "Name": "account_participatesinworkflow",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "participatesinworkflow",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "participatesinworkflow",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Condições de Pagamento (Contas)",
+    "Name": "account_paymenttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Vencimento em 30 dias",
+      "10": "À Vista",
+      "3": "Vencimento em 45 dias",
+      "4": "Vencimento em 60 dias"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "paymenttermscode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "paymenttermscode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Dia Preferencial (Contas)",
+    "Name": "account_preferredappointmentdaycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Domingo",
+      "1": "Segunda-feira",
+      "2": "Terça-feira",
+      "3": "Quarta-feira",
+      "4": "Quinta-feira",
+      "5": "Sexta-feira",
+      "6": "Sábado"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmentdaycode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmentdaycode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Horário Preferencial (Contas)",
+    "Name": "account_preferredappointmenttimecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Manhã",
+      "2": "Tarde",
+      "3": "Noite"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmenttimecode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmenttimecode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Forma Preferencial de Contato (Contas)",
+    "Name": "account_preferredcontactmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Qualquer uma",
+      "2": "Email",
+      "3": "Telefone",
+      "4": "Fax",
+      "5": "Correio"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredcontactmethodcode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredcontactmethodcode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Método de Entrega (Contas)",
+    "Name": "account_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "shippingmethodcode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "shippingmethodcode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Contas)",
+    "Name": "account_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativa",
+      "1": "Inativa"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Contas)",
+    "Name": "account_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativa",
+      "2": "Inativa"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Código da Região (Contas)",
+    "Name": "account_territorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "territorycode",
+        "OptionSetReferenceEntityName": "Contas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Contas",
+    "Type": "OptionSetInfo"
+  }
+]
